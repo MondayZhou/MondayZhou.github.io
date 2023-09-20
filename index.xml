@@ -4,17 +4,9 @@
         <link>http://mondayzhou.github.io/</link>
         <description>Everything About Joey</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhouzhouyidong@gmail.com (Joey Zhou)</managingEditor>
-            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><lastBuildDate>Wed, 20 Sep 2023 00:07:45 -0400</lastBuildDate>
+            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><lastBuildDate>Fri, 08 Sep 2023 01:49:00 -0400</lastBuildDate>
             <atom:link href="http://mondayzhou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Face_Recongnition_Terminal_Deployment_Competit</title>
-    <link>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competit/</link>
-    <pubDate>Wed, 20 Sep 2023 00:07:45 -0400</pubDate>
-    <author>Joey Zhou</author>
-    <guid>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competit/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>About Me</title>
     <link>http://mondayzhou.github.io/posts/about_me/</link>
     <pubDate>Fri, 08 Sep 2023 01:49:00 -0400</pubDate>
@@ -30,6 +22,14 @@ Education 🎓 I pursued my Sc.M in Physics from Brown University. Here, I&rsquo
     <author>Joey Zhou</author>
     <guid>http://mondayzhou.github.io/posts/qpe_algorithm/</guid>
     <description><![CDATA[Introduction Quantum Computing Concept Development Quantum Algorithm Overview Introduction Quantum computers are known to perform certain computational tasks much faster than classical computers. The famous example illustrating this is the problem of factorization of large prime numbers. Today’s most practical encryption protocols rely on the computational hardness of this problem. Quantum computer’s ability to break these cryptosystems by running the Shor’s algorithm is one of the main forces driving today’s race among many research groups and big industrial companies to build the quantum computer.]]></description>
+</item>
+<item>
+    <title>My Journey as the Organizer of Megvii Face Recognition Terminal Deployment Competition</title>
+    <link>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competit/</link>
+    <pubDate>Wed, 20 Oct 2021 00:07:45 -0400</pubDate>
+    <author>Joey Zhou</author>
+    <guid>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competit/</guid>
+    <description><![CDATA[When we talk about the revolutionary strides in AI and face recognition technology, few experiences come close to the excitement and learning that my role as the organizer of the Face Recognition Terminal Deployment Competition brought. Organized under the aegis of Megvii Inc. in Beijing, China, this competition became a pivotal point not only for the company but also for the broader AI community. In this article, I will share a detailed account of my product management experience during the competition.]]></description>
 </item>
 <item>
     <title>MegVii AI Curriculum</title>

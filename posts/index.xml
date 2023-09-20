@@ -13,5 +13,22 @@
     <description><![CDATA[About Me Hello! I&rsquo;m Yidong Zhou, a physicist with a deep passion for the intersection of artificial intelligence product and quantum computing in the real world.
 Education 🎓 I pursued my Sc.M in Physics from Brown University. Here, I&rsquo;ve had the opportunity to delve deep into the world of Quantum Computing and Advanced Quantum Mechanics. I began my academic journey at Nankai University, where I earned my Sc.B in Applied Physics.]]></description>
 </item>
+<item>
+    <title>QPE Algorithm</title>
+    <link>http://mondayzhou.github.io/posts/qpe_algorithm/</link>
+    <pubDate>Fri, 08 Jul 2022 15:56:28 -0400</pubDate>
+    <author>Joey Zhou</author>
+    <guid>http://mondayzhou.github.io/posts/qpe_algorithm/</guid>
+    <description><![CDATA[Introduction Quantum Computing Concept Development Quantum Algorithm Overview Introduction Quantum computers are known to perform certain computational tasks much faster than classical computers. The famous example illustrating this is the problem of factorization of large prime numbers. Today’s most practical encryption protocols rely on the computational hardness of this problem. Quantum computer’s ability to break these cryptosystems by running the Shor’s algorithm is one of the main forces driving today’s race among many research groups and big industrial companies to build the quantum computer.]]></description>
+</item>
+<item>
+    <title>MegVii AI Curriculum</title>
+    <link>http://mondayzhou.github.io/posts/megvii_ai_curriculum/</link>
+    <pubDate>Wed, 08 Sep 2021 16:45:41 -0400</pubDate>
+    <author>Joey Zhou</author>
+    <guid>http://mondayzhou.github.io/posts/megvii_ai_curriculum/</guid>
+    <description><![CDATA[Bridging the Gap: My Journey with Megvii and the Fusion of AI, Curriculum, and Project Management Methodologies When one mentions &ldquo;Megvii Inc.&rdquo;, rapid advances in artificial intelligence might be the first thought. However, during my stint as a Product Manager at this AI powerhouse, I experienced and contributed to a unique blend: the merger of state-of-the-art AI education and structured project management methodologies, namely Agile and Waterfall.
+Crafting AI Education with Face++ At the outset, our goal was audacious: we aimed to create captivating AI-focused lessons, projects, and platforms.]]></description>
+</item>
 </channel>
 </rss>

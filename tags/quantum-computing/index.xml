@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Quantum Computing - Tag - Joui</title>
+        <link>http://mondayzhou.github.io/tags/quantum-computing/</link>
+        <description>Quantum Computing - Tag - Joui</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhouzhouyidong@gmail.com (Joey Zhou)</managingEditor>
+            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><lastBuildDate>Fri, 08 Jul 2022 15:56:28 -0400</lastBuildDate><atom:link href="http://mondayzhou.github.io/tags/quantum-computing/" rel="self" type="application/rss+xml" /><item>
+    <title>QPE Algorithm</title>
+    <link>http://mondayzhou.github.io/posts/qpe_algorithm/</link>
+    <pubDate>Fri, 08 Jul 2022 15:56:28 -0400</pubDate>
+    <author>Joey Zhou</author>
+    <guid>http://mondayzhou.github.io/posts/qpe_algorithm/</guid>
+    <description><![CDATA[Introduction Quantum Computing Concept Development Quantum Algorithm Overview Introduction Quantum computers are known to perform certain computational tasks much faster than classical computers. The famous example illustrating this is the problem of factorization of large prime numbers. Today’s most practical encryption protocols rely on the computational hardness of this problem. Quantum computer’s ability to break these cryptosystems by running the Shor’s algorithm is one of the main forces driving today’s race among many research groups and big industrial companies to build the quantum computer.]]></description>
+</item>
+</channel>
+</rss>

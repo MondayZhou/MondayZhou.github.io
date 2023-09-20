@@ -4,5 +4,13 @@
         <link>http://mondayzhou.github.io/tags/</link>
         <description>Tags - Tag - Joui</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhouzhouyidong@gmail.com (Joey Zhou)</managingEditor>
-            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><atom:link href="http://mondayzhou.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><lastBuildDate>Fri, 08 Jul 2022 15:56:28 -0400</lastBuildDate><atom:link href="http://mondayzhou.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Quantum Computing</title>
+    <link>http://mondayzhou.github.io/tags/quantum-computing/</link>
+    <pubDate>Fri, 08 Jul 2022 15:56:28 -0400</pubDate>
+    <author>Joey Zhou</author>
+    <guid>http://mondayzhou.github.io/tags/quantum-computing/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

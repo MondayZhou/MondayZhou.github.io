@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>QPE Algorithm - Joui</title><meta name="Description" content="Everything About Joey"><meta property="og:title" content="QPE Algorithm" />
+<meta property="og:description" content="Introduction Quantum Computing Concept Development Quantum Algorithm Overview Introduction Quantum computers are known to perform certain computational tasks much faster than classical computers. The famous example illustrating this is the problem of factorization of large prime numbers. Today’s most practical encryption protocols rely on the computational hardness of this problem. Quantum computer’s ability to break these cryptosystems by running the Shor’s algorithm is one of the main forces driving today’s race among many research groups and big industrial companies to build the quantum computer." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://mondayzhou.github.io/posts/qpe_algorithm/" /><meta property="og:image" content="http://mondayzhou.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-07-08T15:56:28-04:00" />
+<meta property="article:modified_time" content="2022-07-08T15:56:28-04:00" /><meta property="og:site_name" content="Joui" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://mondayzhou.github.io/logo.png"/>
+
+<meta name="twitter:title" content="QPE Algorithm"/>
+<meta name="twitter:description" content="Introduction Quantum Computing Concept Development Quantum Algorithm Overview Introduction Quantum computers are known to perform certain computational tasks much faster than classical computers. The famous example illustrating this is the problem of factorization of large prime numbers. Today’s most practical encryption protocols rely on the computational hardness of this problem. Quantum computer’s ability to break these cryptosystems by running the Shor’s algorithm is one of the main forces driving today’s race among many research groups and big industrial companies to build the quantum computer."/>
+<meta name="application-name" content="Joui">
+<meta name="apple-mobile-web-app-title" content="Joui"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://mondayzhou.github.io/posts/qpe_algorithm/" /><link rel="prev" href="http://mondayzhou.github.io/posts/megvii_ai_curriculum/" /><link rel="next" href="http://mondayzhou.github.io/posts/about_me/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "QPE Algorithm",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/mondayzhou.github.io\/posts\/qpe_algorithm\/"
+        },"genre": "posts","keywords": "Quantum Computing","wordcount":  811 ,
+        "url": "http:\/\/mondayzhou.github.io\/posts\/qpe_algorithm\/","datePublished": "2022-07-08T15:56:28-04:00","dateModified": "2022-07-08T15:56:28-04:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Joey Zhou"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Joui">Joey Zhou</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Joui">Joey Zhou</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">QPE Algorithm</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Joey Zhou</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-08">2022-07-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;811 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#quantum-computing-concept-development">Quantum Computing Concept Development</a></li>
+        <li><a href="#quantum-algorithm-overview">Quantum Algorithm Overview</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><ul>
+<li><a href="#inreoduction" rel="">Introduction</a></li>
+<li><a href="#quantum-computing-concept-development" rel="">Quantum Computing Concept Development</a></li>
+<li><a href="#quantum-algorithm-overview" rel="">Quantum Algorithm Overview</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>Quantum computers are known to perform certain computational tasks much faster than classical computers. The famous example illustrating this is the problem of factorization of large prime numbers.  Today’s most practical encryption protocols rely on the computational hardness of this problem.  Quantum computer’s ability to break these cryptosystems by running the Shor’s algorithm is one of the main forces driving today’s race among many research groups and big industrial companies to build the quantum computer.  Quantum computers are believed to be useful in other areas as well such as quantum chemistry and machine learning.</p>
+<h3 id="quantum-computing-concept-development">Quantum Computing Concept Development</h3>
+<p>Quantum computing uses the quantum characteristics of bits, which means, uses the superposition of quantum states and the entanglement characteristics of quantum states to encode data, and operates on quantum states according to the principles of quantum dynamics to realize a calculation that performs operations on data expressed by quantum states plan. The theoretical model of using quantum computing principles was first proposed by Manin&rsquo;s team in 1980. They pointed out that calculations can be realized with two-level quantum systems, that is and proposed a purely theoretical model scheme based on quantum mechanics principles to realize calculations. The theoretical scheme points out that the quantum state in the multi-dimensional Hilbert space can be used to represent data, and the evolution of the quantum state over time can be used to realize the operation of the gate and construct the quantum computing gate.</p>
+<p>In 1985, Deutsch proposed a general-purpose quantum computer theory program and proposed the concept of a quantum Turing machine. In 1982, Feynman expounded a question he was thinking about at a conference 1982, namely, how to effectively simulate the physical system in the real world. Feynman believes that a physical system whose internal evolution laws follow the principles of quantum mechanics is difficult to effectively simulate its evolution with classical computer calculation methods. In the report, he proposed that a quantum computer based on the principles of quantum mechanics may simulate the evolution of a multi-body quantum system. Feynman&rsquo;s conception has attracted the attention and research of researchers. One of the potential applications of quantum computing at this stage is to simulate materials. It is generally believed that the initial ideas in this direction are derived from related concepts elaborated by Feynman.</p>
+<p>Quantum computers mainly hope to use the superposition of quantum states and quantum entanglement in quantum mechanics to realize parallel computing. The originality and coherence of the superposition of quantum states are the basis of quantum parallel computing. Due to the principle of superposition of quantum states and the principle of quantum entanglement, a qubit can be $|0 \rangle $ State and $|1 \rangle $ State at the same time, and $N$ bits can be $N^2$ quantum states at the same time and can realize parallel processing. This makes quantum computers promising to solve complex problems that classical computers cannot solve.</p>
+<h3 id="quantum-algorithm-overview">Quantum Algorithm Overview</h3>
+<p>The quantum computer does not simply use a quantum Turing machine to realize the classical algorithm of classical computers, which is not an effective quantum algorithm. Quantum algorithm generally refers to the algorithm that is based on the superposition of states in quantum mechanics and the entanglement of quantum states. It has a more obvious acceleration effect than classical algorithms for solving certain types of problems. For some specific problems, classical algorithms are used to solve such problems. As the difficulty of the problem increases, the computational complexity increases exponentially. Many problems become unsolvable in a limited time. If an effective quantum algorithm is used to make the computational complexity of solving a certain problem polynomial, it is called an effective quantum algorithm.</p>
+<p>The Shor large number factorization algorithm is a quantum algorithm proposed by the mathematician Peter Shor in 1994. The Shor large number factorization algorithm is based on the Simon quantum algorithm and uses the quantum Fourier transform to factorize prime numbers with N bits. The classic algorithm decomposes the number of binary digits as L, and the calculation time complexity is the relationship of the exponential power of L. Using the Shor large number factorization algorithm, the calculation time complexity is the quadratic term of L. Therefore, the Shor large number factorization algorithm calculates the acceleration with exponential power. Since the Shor large number factorization algorithm can be used to crack the modern electronic communication encryption system, it has attracted wide attention from researchers once it was proposed. Researchers have invested a lot of interest in how to implement quantum computing.</p>
+<p>The Grover quantum search algorithm solves the problem of finding a certain number among the disordered N numbers. For solving this type of problem, the best classical calculation algorithm needs to find $N/2$ times, and the Grover quantum search algorithm is reduced to $\sqrt{N}$ times, which has a square root acceleration effect.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-07-08</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://mondayzhou.github.io/posts/qpe_algorithm/" data-title="QPE Algorithm" data-via="Monday75793062" data-hashtags="Quantum Computing"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://mondayzhou.github.io/posts/qpe_algorithm/" data-hashtag="Quantum Computing"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://mondayzhou.github.io/posts/qpe_algorithm/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://mondayzhou.github.io/posts/qpe_algorithm/" data-title="QPE Algorithm"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://mondayzhou.github.io/posts/qpe_algorithm/" data-title="QPE Algorithm"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/quantum-computing/">Quantum Computing</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/megvii_ai_curriculum/" class="prev" rel="prev" title="MegVii AI Curriculum"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>MegVii AI Curriculum</a>
+            <a href="/posts/about_me/" class="next" rel="next" title="About Me">About Me<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Joey Zhou</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://JoeyZhou.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30},"twemoji":true};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

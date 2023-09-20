@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Joui</title>
+        <link>http://mondayzhou.github.io/tags/</link>
+        <description>Tags - Tag - Joui</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhouzhouyidong@gmail.com (Joey Zhou)</managingEditor>
+            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><atom:link href="http://mondayzhou.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+</rss>

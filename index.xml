@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Joui</title>
+        <link>http://mondayzhou.github.io/</link>
+        <description>Everything About Joey</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhouzhouyidong@gmail.com (Joey Zhou)</managingEditor>
+            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><lastBuildDate>Fri, 08 Sep 2023 01:49:00 -0400</lastBuildDate>
+            <atom:link href="http://mondayzhou.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>About Me</title>
+    <link>http://mondayzhou.github.io/posts/about_me/</link>
+    <pubDate>Fri, 08 Sep 2023 01:49:00 -0400</pubDate>
+    <author>Joey Zhou</author>
+    <guid>http://mondayzhou.github.io/posts/about_me/</guid>
+    <description><![CDATA[About Me Hello! I&rsquo;m Yidong Zhou, a physicist with a deep passion for the intersection of artificial intelligence product and quantum computing in the real world.
+Education 🎓 I pursued my Sc.M in Physics from Brown University. Here, I&rsquo;ve had the opportunity to delve deep into the world of Quantum Computing and Advanced Quantum Mechanics. I began my academic journey at Nankai University, where I earned my Sc.B in Applied Physics.]]></description>
+</item>
+</channel>
+</rss>

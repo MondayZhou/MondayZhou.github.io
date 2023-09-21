@@ -4,7 +4,15 @@
         <link>http://mondayzhou.github.io/posts/</link>
         <description>All Posts | Joui</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhouzhouyidong@gmail.com (Joey Zhou)</managingEditor>
-            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><lastBuildDate>Fri, 08 Sep 2023 01:49:00 -0400</lastBuildDate><atom:link href="http://mondayzhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>zhouzhouyidong@gmail.com (Joey Zhou)</webMaster><lastBuildDate>Thu, 21 Sep 2023 09:10:16 -0400</lastBuildDate><atom:link href="http://mondayzhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Implementation_of_deep_learning_in_new_particle_searching</title>
+    <link>http://mondayzhou.github.io/posts/implementation_of_deep_learning_in_new_particle_searching/</link>
+    <pubDate>Thu, 21 Sep 2023 09:10:16 -0400</pubDate>
+    <author>Joey Zhou</author>
+    <guid>http://mondayzhou.github.io/posts/implementation_of_deep_learning_in_new_particle_searching/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>About Me</title>
     <link>http://mondayzhou.github.io/posts/about_me/</link>
     <pubDate>Fri, 08 Sep 2023 01:49:00 -0400</pubDate>
@@ -23,10 +31,10 @@ Education 🎓 I pursued my Sc.M in Physics from Brown University. Here, I&rsquo
 </item>
 <item>
     <title>My Journey as the Organizer of Megvii Face Recognition Terminal Deployment Competition</title>
-    <link>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competit/</link>
+    <link>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competition/</link>
     <pubDate>Wed, 20 Oct 2021 00:07:45 -0400</pubDate>
     <author>Joey Zhou</author>
-    <guid>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competit/</guid>
+    <guid>http://mondayzhou.github.io/posts/face_recongnition_terminal_deployment_competition/</guid>
     <description><![CDATA[When we talk about the revolutionary strides in AI and face recognition technology, few experiences come close to the excitement and learning that my role as the organizer of the Face Recognition Terminal Deployment Competition brought. Organized under the aegis of Megvii Inc. in Beijing, China, this competition became a pivotal point not only for the company but also for the broader AI community. In this article, I will share a detailed account of my product management experience during the competition.]]></description>
 </item>
 <item>

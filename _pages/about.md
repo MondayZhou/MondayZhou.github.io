@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: joui.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Yidong Joey Zhou（周怡东）</p>
@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I’m Yidong Joey Zhou, a researcher under the guidance of Professor Zhiding Liang at RPI. My work focuses on quantum error correction, quantum system design (quantum architecture), and the development of quantum algorithms and applications. I am also passionate about the intersection of AI and quantum computing, exploring both AI’s role in advancing quantum systems and the potential of quantum technologies to enhance AI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I aim to address fundamental challenges in quantum computing while driving practical innovations across various domains, including optimization, drug discovery, and more. My research equally emphasizes quantum system design and the application of quantum algorithms bridging theory and application at the frontiers of science.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Collaboration across disciplines is central to my approach, and I thrive in environments that connect quantum technology, physics, and AI. My goal is to leverage these intersections to push scientific boundaries and deliver solutions with real-world impact.

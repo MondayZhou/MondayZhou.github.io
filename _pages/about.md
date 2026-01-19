@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Yidong Joey Zhou（周怡东）</p>
     <p>Quantum Computing Researcher </p>
-    <p>PhD student @ RPI</p> 
+    <p>PhD student @ Rutgers University</p> 
     <p>Email: ydzhou119@gmail.com</p>
 
 news: true # includes a list of news items
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I’m Yidong Joey Zhou, a researcher and PhD student under the guidance of Professor Bo Yuan at Rutgers Univeristy. I am also under the guidance of Professor Zhiding Liang at CUHK. My work focuses on quantum error correction, quantum architecture, and the development of quantum algorithms and applications. I am also passionate about the intersection of AI and quantum computing, exploring both AI’s role in advancing quantum systems and the potential of quantum technologies to enhance AI.
+Hi! I’m Yidong Joey Zhou, a researcher and PhD student under the guidance of Professor [Bo Yuan](https://sites.google.com/site/boyuaneecs/home?authuser=0) at Rutgers University. I am also under the guidance of Professor [Zhiding Liang](https://www.innovationadvancedlab.com/home) at CUHK. My work focuses on quantum error correction, quantum architecture, and the development of quantum algorithms and applications. I am also passionate about the intersection of AI and quantum computing, exploring both AI’s role in advancing quantum systems and the potential of quantum technologies to enhance AI.
 
 I aim to address fundamental challenges in quantum computing while driving practical innovations across various domains, including optimization, drug discovery, and more. My research equally emphasizes quantum system design and the application of quantum algorithms bridging theory and application at the frontiers of science.
 

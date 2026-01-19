@@ -1,3 +1,4 @@
+
 (function (global, factory) {
   typeof exports === "object" && typeof module !== "undefined"
     ? factory(exports, require("fs"))
@@ -436,7 +437,7 @@
   }
 
   function createCommonjsModule(fn, module) {
-    return (module = { exports: {} }), fn(module, module.exports), module.exports;
+    return ((module = { exports: {} }), fn(module, module.exports), module.exports);
   }
 
   var bibtexParse = createCommonjsModule(function (module, exports) {

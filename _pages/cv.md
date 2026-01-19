@@ -1,11 +1,6 @@
 ---
-layout: cv
+layout: page
+title: CV
 permalink: /cv/
-title: cv
-nav: false
-nav_order: 3
-cv_pdf: YidongZhou_CV.pdf
-description: Updated 01/18/2025
-toc:
-  sidebar: left
+redirect_to: /assets/pdf/Yidong_Zhou_CV.pdf
 ---

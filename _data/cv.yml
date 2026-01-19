@@ -17,20 +17,20 @@
   contents:
     - title: PhD in Electrical and Computer Engineering
       institution: Rutgers University, Piscataway, NJ
-      year: Jan. 2026 –
+      year: Jan. 2026 - Present
       description:
         - Transfer PhD program from Rensselaer Polytechnic Institute.
     - title: PhD in Computer Science
       institution: Rensselaer Polytechnic Institute, Troy, NY
-      year: Sep. 2024 – Dec. 2026
+      year: Sep. 2024 - Dec. 2026
       description:
         - Focus on quantum compilation, error correction, and distributed quantum computing.
     - title: Master of Science in Physics
       institution: Brown University, Providence, RI
-      year: Jan. 2021 – Dec. 2022
+      year: Jan. 2021 - Dec. 2022
     - title: Bachelor of Science in Applied Physics
       institution: Nankai University, Tianjin, China
-      year: Sep. 2016 – Jun. 2020
+      year: Sep. 2016 - Jun. 2020
 
 - title: Research Interests
   type: list
@@ -45,7 +45,7 @@
   contents:
     - year: 2025
       items:
-        - Joint First Place, The Linda O’Bryant Prize
+        - Joint First Place, The Linda O'Bryant Prize
         - DAC Young Fellow, Design Automation Conference (DAC)
         - IEEE QCE NSF Travel Grant
     - year: N/A
@@ -76,19 +76,19 @@
   contents:
     - title: Quantum Algorithm Researcher
       institution: SpinQ, Shenzhen, China
-      year: Jun. 2024 – Jul. 2024
+      year: Jun. 2024 - Jul. 2024
       description:
         - Developed quantum-algorithm-based applications including QKD protocols and distributed VQE for MAX-CUT.
         - Reproduced and adapted state-of-the-art quantum machine learning algorithms for real-world scenarios.
     - title: Quantum Computing Research Assistant
       institution: Brown Theoretical Physics Center, Brown University
-      year: Oct. 2021 – May 2023
+      year: Oct. 2021 - May 2023
       description:
         - Benchmarked quantum and classical predictive models, achieving ~30% efficiency improvement.
-        - Analyzed accuracy–hyperparameter correlations, improving prediction precision by ~20%.
+        - Analyzed accuracy-hyperparameter correlations, improving prediction precision by ~20%.
     - title: Machine Learning Engineer
       institution: Megvii Inc., Beijing, China
-      year: May 2021 – Sep. 2021
+      year: May 2021 - Sep. 2021
       description:
         - Designed and deployed face recognition systems processing 10k+ images/day at 98.5% accuracy.
         - Integrated deep learning pipelines into Android SDK/NDK, reducing manual verification by 70%.
@@ -97,24 +97,15 @@
   type: time_table
   contents:
     - title: Statistics of Classical Nonlinear Dynamical Systems
-      year: 2021 – 2023
+      year: 2021 - 2023
       description:
-        - Applied NISQ devices and quantum phase estimation to solve the Fokker–Planck equation.
+        - Applied NISQ devices and quantum phase estimation to solve the Fokker-Planck equation.
         - Implemented algorithms on 11-qubit hardware and scaled simulations with accuracy improved from 72% to 95%.
     - title: Deep Learning for New Particle Searching
-      year: 2022 – 2023
+      year: 2022 - 2023
       description:
         - Built a seven-layer MLP for MS/SS classification in dark matter experiments.
         - Achieved fewer than 90 ppm classification error.
-    - title: Masked Face Recognition Terminal
-      year: 2021
-      description:
-        - Architected an end-to-end Android + C++ system processing 10k+ images/day.
-        - Improved processing speed by 30% and reduced unauthorized access by 50%.
-    - title: Optical Properties of Lithium Niobate Cavities
-      year: 2019 – 2020
-      description:
-        - Studied optical gratings and light scattering in LiNbO₃ single-crystal cavities.
 
 - title: Other Interests
   type: list

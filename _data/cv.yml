@@ -2,96 +2,121 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yidong Zhou
+    - name: Email
+      value: ydzhou119@gmail.com
+    - name: Phone
+      value: 401-201-1716
+    - name: Affiliations
+      value: Rutgers University
+    - name: Research Areas
+      value: Quantum Computing, Quantum Architecture Co-design, Quantum Algorithms
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Electrical and Computer Engineering
+      institution: Rutgers University, Piscataway, NJ
+      year: Jan. 2026 –
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Transfer PhD program from Rensselaer Polytechnic Institute.
+    - title: PhD in Computer Science
+      institution: Rensselaer Polytechnic Institute, Troy, NY
+      year: Sep. 2024 – Dec. 2026
       description:
-        - Description 1.
-        - Description 2.
+        - Focus on quantum compilation, error correction, and distributed quantum computing.
+    - title: Master of Science in Physics
+      institution: Brown University, Providence, RI
+      year: Jan. 2021 – Dec. 2022
+    - title: Bachelor of Science in Applied Physics
+      institution: Nankai University, Tianjin, China
+      year: Sep. 2016 – Jun. 2020
 
-- title: Experience
-  type: time_table
+- title: Research Interests
+  type: list
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - Quantum architecture co-design and distributed quantum computing.
+    - Quantum error correction, decoding, and hardware-aware compilation.
+    - Quantum algorithms for optimization and scientific applications.
+    - Intersections of quantum computing, theoretical physics, and computer science.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Joint First Place, The Linda O’Bryant Prize
+        - DAC Young Fellow, Design Automation Conference (DAC)
+        - IEEE QCE NSF Travel Grant
+    - year: N/A
       items:
-        - Max Planck Medal
+        - First Prize, Chinese Physics Olympiad (CPhO)
+        - Poling Class Scholarship, Nankai University
 
-- title: Academic Interests
-  type: nested_list
+- title: Selected Publications
+  type: list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - "**Quantum-machine-assisted Drug Discovery: Survey and Perspective.**  
+       Y. Zhou, J. Chen, J. Cheng, C. Xu, Y. Gao, G. Karemore, M. Zitnik, F. T. Chong, J. Liu, T. Fu, Z. Liang. *npj Drug Discovery*, 2025."
+    - "**EDDQC: Enhanced Dynamical Distributing Quantum Compilation.**  
+       Y. Zhou*, K. Liu*, H. Luo, L. Xiong, Y. Zhu, E. Casey, J. Cheng, S. Y. C. Chen, Z. Liang. *IEEE TVLSI*, 2025."
+    - "**Reinforcement Learning for Enhanced Advanced QEC Architecture Decoding.**  
+       Y. Zhou, L. Kong, Y. Peng, Z. Liang. *ASP-DAC*, 2026."
+    - "**Hardware-aware Calibration Protocol for Quantum Computers.**  
+       Y. Zhu, J. Cheng, B. Li, K. Liu, Y. Zhou, H. Wang, Y. Ding, Z. Liang. *ISCA*, 2025."
+    - "**EPOC: A Novel Pulse Generation Framework for Quantum Circuits.**  
+       J. Cheng, Y. Zhu, Y. Zhou, H. Ren, Z. Song, Z. Liang. *DAC*, 2025."
+    - "**Coqa: Blazing Fast Compiler Optimizations for QAOA.**  
+       Y. Zhu*, Y. Zhou*, J. Cheng, Y. Jin, B. Li, S. Niu, Z. Liang. *ICCAD*, 2024."
+    - "**A Comparison on Constraint Encoding Methods for QAOA.**  
+       Y. Liu, Q. Jiao, Y. Zhou, Z. Liang, Y. Shi, K. Wan, S. Guo. *ICCAD*, 2024."
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Quantum Algorithm Researcher
+      institution: SpinQ, Shenzhen, China
+      year: Jun. 2024 – Jul. 2024
+      description:
+        - Developed quantum-algorithm-based applications including QKD protocols and distributed VQE for MAX-CUT.
+        - Reproduced and adapted state-of-the-art quantum machine learning algorithms for real-world scenarios.
+    - title: Quantum Computing Research Assistant
+      institution: Brown Theoretical Physics Center, Brown University
+      year: Oct. 2021 – May 2023
+      description:
+        - Benchmarked quantum and classical predictive models, achieving ~30% efficiency improvement.
+        - Analyzed accuracy–hyperparameter correlations, improving prediction precision by ~20%.
+    - title: Machine Learning Engineer
+      institution: Megvii Inc., Beijing, China
+      year: May 2021 – Sep. 2021
+      description:
+        - Designed and deployed face recognition systems processing 10k+ images/day at 98.5% accuracy.
+        - Integrated deep learning pipelines into Android SDK/NDK, reducing manual verification by 70%.
+
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: Statistics of Classical Nonlinear Dynamical Systems
+      year: 2021 – 2023
+      description:
+        - Applied NISQ devices and quantum phase estimation to solve the Fokker–Planck equation.
+        - Implemented algorithms on 11-qubit hardware and scaled simulations with accuracy improved from 72% to 95%.
+    - title: Deep Learning for New Particle Searching
+      year: 2022 – 2023
+      description:
+        - Built a seven-layer MLP for MS/SS classification in dark matter experiments.
+        - Achieved fewer than 90 ppm classification error.
+    - title: Masked Face Recognition Terminal
+      year: 2021
+      description:
+        - Architected an end-to-end Android + C++ system processing 10k+ images/day.
+        - Improved processing speed by 30% and reduced unauthorized access by 50%.
+    - title: Optical Properties of Lithium Niobate Cavities
+      year: 2019 – 2020
+      description:
+        - Studied optical gratings and light scattering in LiNbO₃ single-crystal cavities.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Rockclimbing, Hiking, and Pottery Making.

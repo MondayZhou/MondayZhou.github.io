@@ -7,19 +7,14 @@ nav_order: 3
 ---
 
 **Journal Reviewer**  
-Quantum Machine Intelligence
-
+Quantum Machine Intelligence  
 ACM Transactions on Quantum Computing
 
 **Technical Papers Program Committee**  
-ICCAD@2025
-
-QCE@2025
-
-DAC-LBR@2025
-
-QCAS@2024
-
+ICCAD@2025  
+QCE@2025  
+DAC-LBR@2025  
+QCAS@2024  
 QCCC@24
 
 **Committee Member**  

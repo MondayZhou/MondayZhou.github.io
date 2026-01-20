@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to be selected as a DAC Young Fellow for contributions to research in design automation and advanced computing systems.
+Honored to be selected as a **DAC Young Fellow** for contributions to research in design automation and advanced computing systems.

@@ -2,5 +2,5 @@
 layout: page
 title: CV
 permalink: /cv/
-redirect_to: /assets/pdf/Yidong_Zhou_CV.pdf
+redirect_to: /assets/pdf/YidongZhou_CV.pdf
 ---

@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 ---
 
-## Academic Service 🧾
+## Academic Service
 
 **Journal Reviewer**  
 Quantum Machine Intelligence

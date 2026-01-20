@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Academic Service
+title: academic service
 permalink: /academic-service/
 nav: true
 nav_order: 3
 ---
-
-## Academic Service
 
 **Journal Reviewer**  
 Quantum Machine Intelligence

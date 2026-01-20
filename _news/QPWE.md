@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our proposal **Towards Conscious Artificial Intelligence: Probabilistic Word Embedding with Quantum Sampling** win joint first place for the LindaO'Bryant 2025 prize, cheers!
+Our proposal **Towards Conscious Artificial Intelligence: Probabilistic Word Embedding with Quantum Sampling** won joint first place for the LindaO'Bryant 2025 prize, cheers!

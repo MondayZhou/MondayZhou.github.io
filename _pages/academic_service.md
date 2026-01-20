@@ -13,7 +13,7 @@ ACM Transactions on Quantum Computing
 **Conference Reviewer**  
 ICCAD@2025  
 QCE@2025  
-DAC-LBR@2025  
+DAC@2025  
 QCAS@2024  
 QCCC@24
 

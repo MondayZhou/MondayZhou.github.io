@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was awarded the 2025 <strong>QCE NSF Travel Grant</strong>, thanks to NSF and QCE!
+I was awarded the 2025 **QCE NSF Travel Grant** thanks to NSF and QCE!

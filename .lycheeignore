@@ -1,2 +1,5 @@
 # Mozilla rate limits CI runners
 https://support.mozilla.org/
+
+# Unsplash rejects requests from CI link checkers
+https://unsplash.com
